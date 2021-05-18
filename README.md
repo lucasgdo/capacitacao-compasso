@@ -1,2 +1,2 @@
 # capacitacao_compasso
-Exercícios realizados durante a capacitação em automação de testes
+Branch com features criadas para cada exercício, separadas por pastas.
