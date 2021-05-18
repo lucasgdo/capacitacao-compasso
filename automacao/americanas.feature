@@ -14,7 +14,7 @@ Funcionalidade: Login
     E deverá ser exibida a mensagem "<mensagem>"
 
     Exemplos:
-      | email                 | senha             | pagina | mensagem                   |
+      | e-mail                | senha             | pagina | mensagem                   |
       | teste@compasso.com.br | senhaCorreta@123  | home   | olá Teste                  |
       | thatisnotanemail      | senhaCorreta@123  | login  | E-mail ou senha incorretos |
       | teste@compasso.com.br | enhaIncorreta@321 | login  | E-mail ou senha incorretos |
