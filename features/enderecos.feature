@@ -24,8 +24,6 @@ Funcionalidade: Endereço
       | Nome válido   | 79905332 | 557    | Casa     | abc         | meus_dados         | Revise este dado.               |
       | Nome válido   | 79905332 | 557    | Casa     | 1234567     | meus_dados         | Digite pelo menos 8 caracteres. |
 
-
-
   Esquema do Cenário: Editar endereço
     Dado que possua um endereço cadastrado
     Quando editar um endereço com nome completo "<nome_completo>", cep "<cep>", número "<numero>", tipo de endereço "<tipo>" e telefone "<telefone>"
