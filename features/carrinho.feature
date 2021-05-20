@@ -3,7 +3,7 @@
 Funcionalidade: Carrinho
 
   Contexto:
-    Dado que esteja na página do carrinho
+    Dado que esteja na página de Carrinho
 
   Esquema do Cenário: Salvar produto
     Quando salvar o produto "<produto>"

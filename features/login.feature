@@ -2,7 +2,7 @@
 
 Funcionalidade: Login
   Como um usuário cadastrado
-  O usuário quer realizar o Login
+  O usuário quer realizar o login
   Para ter acesso às funcionalidades de usuário logado
 
   Contexto:
