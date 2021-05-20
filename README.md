@@ -2,4 +2,4 @@
 
 Branch com exercícios sobre a api do ServeRest.
 
-![Mapa ServeRest](Serverest.png "Mapa ServeRest")
+![Mapa ServeRest](ServeRest.png "Mapa ServeRest")
