@@ -45,7 +45,7 @@
 					},
 					"response": [
 						{
-							"name": "Realizar login - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -125,7 +125,7 @@
 							"body": "{\n    \"message\": \"Login realizado com sucesso\",\n    \"authorization\": \"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZ1bGFub0BxYS5jb20iLCJwYXNzd29yZCI6InRlc3RlIiwiaWF0IjoxNjIxNjA0OTg4LCJleHAiOjE2MjE2MDU1ODh9.o43NgDSQ6FiloppNl8TM3xrWGTzA6DHmfo1yQuxdUOw\"\n}"
 						},
 						{
-							"name": "Realizar login - E-mail inválido",
+							"name": "E-mail inválido",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -205,7 +205,7 @@
 							"body": "{\n    \"email\": \"email deve ser um email válido\"\n}"
 						},
 						{
-							"name": "Realizar login - Senha inválida",
+							"name": "Senha inválida",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -285,7 +285,7 @@
 							"body": "{\n    \"message\": \"Email e/ou senha inválidos\"\n}"
 						},
 						{
-							"name": "Realizar login - Campos obrigatórios",
+							"name": "Campos obrigatórios",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -356,7 +356,7 @@
 							"body": "{\n    \"email\": \"email é obrigatório\",\n    \"password\": \"password é obrigatório\"\n}"
 						},
 						{
-							"name": "Realizar login - String vazia em todos os campos",
+							"name": "String vazia em todos os campos",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -436,7 +436,7 @@
 							"body": "{\n    \"email\": \"email não pode ficar em branco\",\n    \"password\": \"password não pode ficar em branco\"\n}"
 						},
 						{
-							"name": "Realizar login - Number em todos os campos",
+							"name": "Number em todos os campos",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -516,7 +516,7 @@
 							"body": "{\n    \"email\": \"email deve ser uma string\",\n    \"password\": \"password deve ser uma string\"\n}"
 						},
 						{
-							"name": "Realizar login - Boolean em todos os campos",
+							"name": "Boolean em todos os campos",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -596,7 +596,7 @@
 							"body": "{\n    \"email\": \"email deve ser uma string\",\n    \"password\": \"password deve ser uma string\"\n}"
 						},
 						{
-							"name": "Realizar login - Campo extra",
+							"name": "Campo extra",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -683,7 +683,7 @@
 			"name": "Usuários",
 			"item": [
 				{
-					"name": "Lista de usuários",
+					"name": "Listar usuários",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -726,7 +726,7 @@
 					},
 					"response": [
 						{
-							"name": "Lista de usuários - Todos",
+							"name": "Todos",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -797,7 +797,7 @@
 							"body": "{\n    \"quantidade\": 16,\n    \"usuarios\": [\n        {\n            \"nome\": \"Fulano da Silva\",\n            \"email\": \"fulano@qa.com\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"0uxuPY0cbmQhpEz1\"\n        },\n        {\n            \"nome\": \"Celestino\",\n            \"email\": \"Horace39@yahoo.com\",\n            \"password\": \"cGJSfigOeM7c3rb\",\n            \"administrador\": \"true\",\n            \"_id\": \"2sAiZCf2bihxM7ha\"\n        },\n        {\n            \"nome\": \"Werner\",\n            \"email\": \"Myrna_Johnson@hotmail.com\",\n            \"password\": \"d5AYKDKmMnmP5Hc\",\n            \"administrador\": \"true\",\n            \"_id\": \"4NaszuF4cn1gS7l8\"\n        },\n        {\n            \"nome\": \"Fulano da Silva\",\n            \"email\": \"beltran@qa.com.br\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"CE4qCxVxJP2vN36f\"\n        },\n        {\n            \"nome\": \"Jevon\",\n            \"email\": \"Adrienne.Wisoky91@yahoo.com\",\n            \"password\": \"M1wLM4WS5a7XH4T\",\n            \"administrador\": \"true\",\n            \"_id\": \"E06TwXoAmLvSI7Mc\"\n        },\n        {\n            \"nome\": \"Paige\",\n            \"email\": \"Kameron.OConner29@yahoo.com\",\n            \"password\": \"bzTW4hPC3Tf4rUC\",\n            \"administrador\": \"true\",\n            \"_id\": \"JxnGVmINKWCgZDmQ\"\n        },\n        {\n            \"nome\": \"Francisca\",\n            \"email\": \"Conor_Larkin41@yahoo.com\",\n            \"password\": \"YeAvkROMfNokr6G\",\n            \"administrador\": \"true\",\n            \"_id\": \"P6dd0IxEBEgVy104\"\n        },\n        {\n            \"nome\": \"Adriana\",\n            \"email\": \"Nadia.Homenick@hotmail.com\",\n            \"password\": \"RUKBd8Acz2_rKJO\",\n            \"administrador\": \"true\",\n            \"_id\": \"Ts23WHOx8QBSsZGv\"\n        },\n        {\n            \"nome\": \"Fulano da Silva\",\n            \"email\": \"beltrano@qa.com.br\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"VRzLoPzWZ8Jf2ouY\"\n        },\n        {\n            \"nome\": \"Jeanie\",\n            \"email\": \"Rollin33@gmail.com\",\n            \"password\": \"G2IpPBCpoRwdZJo\",\n            \"administrador\": \"true\",\n            \"_id\": \"Z7vLw6IJuxXysHbW\"\n        },\n        {\n            \"nome\": \"Antonio\",\n            \"email\": \"Emmet_Hills95@hotmail.com\",\n            \"password\": \"kAfu0rwckba8Dax\",\n            \"administrador\": \"true\",\n            \"_id\": \"ZjdpbAlNJPwzOq6i\"\n        },\n        {\n            \"nome\": \"Dortha\",\n            \"email\": \"Violet12@gmail.com\",\n            \"password\": \"SkL5jJ1IdlQqXEA\",\n            \"administrador\": \"true\",\n            \"_id\": \"a1s8un5FwsJH1IUw\"\n        },\n        {\n            \"nome\": \"Burley\",\n            \"email\": \"Dario_Armstrong@hotmail.com\",\n            \"password\": \"e4pMob26ZkoZtnv\",\n            \"administrador\": \"true\",\n            \"_id\": \"bEhCIo5G40QC5tjz\"\n        },\n        {\n            \"nome\": \"Fulano e Silva\",\n            \"email\": \"beltranoa@qa.com.br\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"gMktT5i3cqKR6zS6\"\n        },\n        {\n            \"nome\": \"Geovanny\",\n            \"email\": \"Shayna.Padberg80@yahoo.com\",\n            \"password\": \"6B5afYwnvD_sJbk\",\n            \"administrador\": \"true\",\n            \"_id\": \"kJmeVuucAwBBZdn0\"\n        },\n        {\n            \"nome\": \"Pedro\",\n            \"email\": \"emaildoPedro@correio.pt\",\n            \"password\": \"PWdoPedro\",\n            \"administrador\": \"true\",\n            \"_id\": \"xnesuoXPYgbY9q3A\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Lista de usuários - Filtro por id",
+							"name": "Filtro por id",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -894,7 +894,7 @@
 							"body": "{\n    \"quantidade\": 1,\n    \"usuarios\": [\n        {\n            \"nome\": \"Fulano da Silva\",\n            \"email\": \"fulano@qa.com\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"0uxuPY0cbmQhpEz1\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Lista de usuários - Filtro por nome",
+							"name": "Filtro por nome",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -991,7 +991,7 @@
 							"body": "{\n    \"quantidade\": 1,\n    \"usuarios\": [\n        {\n            \"nome\": \"Celestino\",\n            \"email\": \"Horace39@yahoo.com\",\n            \"password\": \"cGJSfigOeM7c3rb\",\n            \"administrador\": \"true\",\n            \"_id\": \"2sAiZCf2bihxM7ha\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Lista de usuários - Filtro por e-mail",
+							"name": "Filtro por e-mail",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -1088,7 +1088,7 @@
 							"body": "{\n    \"quantidade\": 1,\n    \"usuarios\": [\n        {\n            \"nome\": \"Werner\",\n            \"email\": \"Myrna_Johnson@hotmail.com\",\n            \"password\": \"d5AYKDKmMnmP5Hc\",\n            \"administrador\": \"true\",\n            \"_id\": \"4NaszuF4cn1gS7l8\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Lista de usuários - Filtro por senha",
+							"name": "Filtro por senha",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -1185,7 +1185,7 @@
 							"body": "{\n    \"quantidade\": 4,\n    \"usuarios\": [\n        {\n            \"nome\": \"Fulano da Silva\",\n            \"email\": \"fulano@qa.com\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"0uxuPY0cbmQhpEz1\"\n        },\n        {\n            \"nome\": \"Fulano da Silva\",\n            \"email\": \"beltran@qa.com.br\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"CE4qCxVxJP2vN36f\"\n        },\n        {\n            \"nome\": \"Fulano da Silva\",\n            \"email\": \"beltrano@qa.com.br\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"VRzLoPzWZ8Jf2ouY\"\n        },\n        {\n            \"nome\": \"Fulano e Silva\",\n            \"email\": \"beltranoa@qa.com.br\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"gMktT5i3cqKR6zS6\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Lista de usuários - Filtro por administrador",
+							"name": "Filtro por administrador",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -1282,7 +1282,7 @@
 							"body": "{\n    \"quantidade\": 19,\n    \"usuarios\": [\n        {\n            \"nome\": \"Fulano da Silva\",\n            \"email\": \"fulano@qa.com\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"0uxuPY0cbmQhpEz1\"\n        },\n        {\n            \"nome\": \"Celestino\",\n            \"email\": \"Horace39@yahoo.com\",\n            \"password\": \"cGJSfigOeM7c3rb\",\n            \"administrador\": \"true\",\n            \"_id\": \"2sAiZCf2bihxM7ha\"\n        },\n        {\n            \"nome\": \"Werner\",\n            \"email\": \"Myrna_Johnson@hotmail.com\",\n            \"password\": \"d5AYKDKmMnmP5Hc\",\n            \"administrador\": \"true\",\n            \"_id\": \"4NaszuF4cn1gS7l8\"\n        },\n        {\n            \"nome\": \"Fulano da Silva\",\n            \"email\": \"beltran@qa.com.br\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"CE4qCxVxJP2vN36f\"\n        },\n        {\n            \"nome\": \"Jevon\",\n            \"email\": \"Adrienne.Wisoky91@yahoo.com\",\n            \"password\": \"M1wLM4WS5a7XH4T\",\n            \"administrador\": \"true\",\n            \"_id\": \"E06TwXoAmLvSI7Mc\"\n        },\n        {\n            \"nome\": \"Paige\",\n            \"email\": \"Kameron.OConner29@yahoo.com\",\n            \"password\": \"bzTW4hPC3Tf4rUC\",\n            \"administrador\": \"true\",\n            \"_id\": \"JxnGVmINKWCgZDmQ\"\n        },\n        {\n            \"nome\": \"Pedro3\",\n            \"email\": \"emaildoPedro3@correio.pt\",\n            \"password\": \"PWdoPedro3\",\n            \"administrador\": \"true\",\n            \"_id\": \"KB4YGeEgxTfF8jfp\"\n        },\n        {\n            \"nome\": \"Francisca\",\n            \"email\": \"Conor_Larkin41@yahoo.com\",\n            \"password\": \"YeAvkROMfNokr6G\",\n            \"administrador\": \"true\",\n            \"_id\": \"P6dd0IxEBEgVy104\"\n        },\n        {\n            \"nome\": \"Pedro2\",\n            \"email\": \"emaildoPedro2@correio.pt\",\n            \"password\": \"PWdoPedro2\",\n            \"administrador\": \"true\",\n            \"_id\": \"TVn2JYdSl5bfsdaw\"\n        },\n        {\n            \"nome\": \"Adriana\",\n            \"email\": \"Nadia.Homenick@hotmail.com\",\n            \"password\": \"RUKBd8Acz2_rKJO\",\n            \"administrador\": \"true\",\n            \"_id\": \"Ts23WHOx8QBSsZGv\"\n        },\n        {\n            \"nome\": \"Fulano da Silva\",\n            \"email\": \"beltrano@qa.com.br\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"VRzLoPzWZ8Jf2ouY\"\n        },\n        {\n            \"nome\": \"Pedro4\",\n            \"email\": \"emaildoPedro4@correio.pt\",\n            \"password\": \"PWdoPedro4\",\n            \"administrador\": \"true\",\n            \"_id\": \"Wm52FRLyBRzjsxKm\"\n        },\n        {\n            \"nome\": \"Jeanie\",\n            \"email\": \"Rollin33@gmail.com\",\n            \"password\": \"G2IpPBCpoRwdZJo\",\n            \"administrador\": \"true\",\n            \"_id\": \"Z7vLw6IJuxXysHbW\"\n        },\n        {\n            \"nome\": \"Antonio\",\n            \"email\": \"Emmet_Hills95@hotmail.com\",\n            \"password\": \"kAfu0rwckba8Dax\",\n            \"administrador\": \"true\",\n            \"_id\": \"ZjdpbAlNJPwzOq6i\"\n        },\n        {\n            \"nome\": \"Dortha\",\n            \"email\": \"Violet12@gmail.com\",\n            \"password\": \"SkL5jJ1IdlQqXEA\",\n            \"administrador\": \"true\",\n            \"_id\": \"a1s8un5FwsJH1IUw\"\n        },\n        {\n            \"nome\": \"Burley\",\n            \"email\": \"Dario_Armstrong@hotmail.com\",\n            \"password\": \"e4pMob26ZkoZtnv\",\n            \"administrador\": \"true\",\n            \"_id\": \"bEhCIo5G40QC5tjz\"\n        },\n        {\n            \"nome\": \"Fulano e Silva\",\n            \"email\": \"beltranoa@qa.com.br\",\n            \"password\": \"teste\",\n            \"administrador\": \"true\",\n            \"_id\": \"gMktT5i3cqKR6zS6\"\n        },\n        {\n            \"nome\": \"Geovanny\",\n            \"email\": \"Shayna.Padberg80@yahoo.com\",\n            \"password\": \"6B5afYwnvD_sJbk\",\n            \"administrador\": \"true\",\n            \"_id\": \"kJmeVuucAwBBZdn0\"\n        },\n        {\n            \"nome\": \"Pedro\",\n            \"email\": \"emaildoPedro@correio.pt\",\n            \"password\": \"PWdoPedro\",\n            \"administrador\": \"true\",\n            \"_id\": \"xnesuoXPYgbY9q3A\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Lista de usuários - Chave extra",
+							"name": "Chave extra",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -1406,7 +1406,7 @@
 					},
 					"response": [
 						{
-							"name": "Cadastrar usuário - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -1486,7 +1486,7 @@
 							"body": "{\n    \"message\": \"Cadastro realizado com sucesso\",\n    \"_id\": \"zVOTjVNXfZPcLWSA\"\n}"
 						},
 						{
-							"name": "Cadastrar usuário - Campos obrigatórios",
+							"name": "Campos obrigatórios",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -1557,7 +1557,7 @@
 							"body": "{\n    \"nome\": \"nome é obrigatório\",\n    \"email\": \"email é obrigatório\",\n    \"password\": \"password é obrigatório\",\n    \"administrador\": \"administrador é obrigatório\"\n}"
 						},
 						{
-							"name": "Cadastrar usuário - E-mail já cadastrado",
+							"name": "E-mail já cadastrado",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -1637,7 +1637,7 @@
 							"body": "{\n    \"message\": \"Este email já está sendo usado\"\n}"
 						},
 						{
-							"name": "Cadastrar usuário - E-mail no formato incorreto",
+							"name": "E-mail no formato incorreto",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -1717,7 +1717,7 @@
 							"body": "{\n    \"email\": \"email deve ser um email válido\"\n}"
 						},
 						{
-							"name": "Cadastrar usuário - String vazia em todos os campos",
+							"name": "String vazia em todos os campos",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -1797,7 +1797,7 @@
 							"body": "{\n    \"nome\": \"nome não pode ficar em branco\",\n    \"email\": \"email não pode ficar em branco\",\n    \"password\": \"password não pode ficar em branco\",\n    \"administrador\": \"administrador deve ser 'true' ou 'false'\"\n}"
 						},
 						{
-							"name": "Cadastrar usuário - Number em todos os campos",
+							"name": "Number em todos os campos",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -1877,7 +1877,7 @@
 							"body": "{\n    \"nome\": \"nome deve ser uma string\",\n    \"email\": \"email deve ser uma string\",\n    \"password\": \"password deve ser uma string\",\n    \"administrador\": \"administrador deve ser 'true' ou 'false'\"\n}"
 						},
 						{
-							"name": "Cadastrar usuário - Boolean em todos os campos",
+							"name": "Boolean em todos os campos",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -1957,7 +1957,7 @@
 							"body": "{\n    \"nome\": \"nome deve ser uma string\",\n    \"email\": \"email deve ser uma string\",\n    \"password\": \"password deve ser uma string\",\n    \"administrador\": \"administrador deve ser 'true' ou 'false'\"\n}"
 						},
 						{
-							"name": "Cadastrar usuário - Campo extra",
+							"name": "Campo extra",
 							"originalRequest": {
 								"method": "POST",
 								"header": [],
@@ -2056,7 +2056,7 @@
 					},
 					"response": [
 						{
-							"name": "Buscar usuário por ID - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -2128,7 +2128,7 @@
 							"body": "{\n    \"nome\": \"Fulano da Silva\",\n    \"email\": \"fulano@qa.com\",\n    \"password\": \"teste\",\n    \"administrador\": \"true\",\n    \"_id\": \"0uxuPY0cbmQhpEz1\"\n}"
 						},
 						{
-							"name": "Buscar usuário por ID - Usuário não encontrado",
+							"name": "Usuário não encontrado",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -2219,7 +2219,7 @@
 					},
 					"response": [
 						{
-							"name": "Excluir usuário - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [],
@@ -2291,7 +2291,7 @@
 							"body": "{\n    \"message\": \"Registro excluído com sucesso\"\n}"
 						},
 						{
-							"name": "Excluir usuário - Id não existente",
+							"name": "Id não existente",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [],
@@ -2363,7 +2363,7 @@
 							"body": "{\n    \"message\": \"Nenhum registro excluído\"\n}"
 						},
 						{
-							"name": "Excluir usuário - Usuário com carrinho cadastrado",
+							"name": "Usuário com carrinho cadastrado",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [],
@@ -2463,7 +2463,7 @@
 					},
 					"response": [
 						{
-							"name": "Editar usuário - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [],
@@ -2544,7 +2544,7 @@
 							"body": "{\n    \"message\": \"Registro alterado com sucesso\"\n}"
 						},
 						{
-							"name": "Editar usuário - Id inexistente",
+							"name": "Id inexistente",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [],
@@ -2625,7 +2625,7 @@
 							"body": "{\n    \"message\": \"Cadastro realizado com sucesso\",\n    \"_id\": \"GMNeCbtM0f3zPhnN\"\n}"
 						},
 						{
-							"name": "Editar usuário - Campos obrigatórios",
+							"name": "Campos obrigatórios",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [],
@@ -2697,7 +2697,7 @@
 							"body": "{\n    \"nome\": \"nome é obrigatório\",\n    \"email\": \"email é obrigatório\",\n    \"password\": \"password é obrigatório\",\n    \"administrador\": \"administrador é obrigatório\"\n}"
 						},
 						{
-							"name": "Editar usuário - E-mail já cadastrado",
+							"name": "E-mail já cadastrado",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [],
@@ -2778,7 +2778,7 @@
 							"body": "{\n    \"message\": \"Este email já está sendo usado\"\n}"
 						},
 						{
-							"name": "Editar usuário - E-mail no formato incorreto",
+							"name": "E-mail no formato incorreto",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [],
@@ -2859,88 +2859,7 @@
 							"body": "{\n    \"email\": \"email deve ser um email válido\"\n}"
 						},
 						{
-							"name": "Editar usuário - Campo extra",
-							"originalRequest": {
-								"method": "PUT",
-								"header": [],
-								"body": {
-									"mode": "raw",
-									"raw": "{\r\n    \"nome\": \"Fulano da Silva\",\r\n    \"email\": \"tests@qa.com.br\",\r\n    \"password\": \"teste\",\r\n    \"administrador\": \"true\",\r\n    \"campoExtra\": \"teste\"\r\n}",
-									"options": {
-										"raw": {
-											"language": "json"
-										}
-									}
-								},
-								"url": {
-									"raw": "{{url}}/usuarios/4NaszuF4cn1gS7l8",
-									"host": [
-										"{{url}}"
-									],
-									"path": [
-										"usuarios",
-										"4NaszuF4cn1gS7l8"
-									]
-								}
-							},
-							"status": "Bad Request",
-							"code": 400,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Date",
-									"value": "Fri, 21 May 2021 17:13:56 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json; charset=utf-8"
-								},
-								{
-									"key": "Content-Length",
-									"value": "52"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Access-Control-Allow-Origin",
-									"value": "*"
-								},
-								{
-									"key": "x-dns-prefetch-control",
-									"value": "off"
-								},
-								{
-									"key": "x-frame-options",
-									"value": "SAMEORIGIN"
-								},
-								{
-									"key": "strict-transport-security",
-									"value": "max-age=15552000; includeSubDomains"
-								},
-								{
-									"key": "x-download-options",
-									"value": "noopen"
-								},
-								{
-									"key": "x-content-type-options",
-									"value": "nosniff"
-								},
-								{
-									"key": "x-xss-protection",
-									"value": "1; mode=block"
-								},
-								{
-									"key": "x-moesif-transaction-id",
-									"value": "7810ff5c-a93f-4a4d-b33b-cc9cc4a61999"
-								}
-							],
-							"cookie": [],
-							"body": "{\n    \"campoExtra\": \"campoExtra não é permitido\"\n}"
-						},
-						{
-							"name": "Editar usuário - String vazia em todos os campos",
+							"name": "String vazia em todos os campos",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [],
@@ -3021,7 +2940,7 @@
 							"body": "{\n    \"nome\": \"nome não pode ficar em branco\",\n    \"email\": \"email não pode ficar em branco\",\n    \"password\": \"password não pode ficar em branco\",\n    \"administrador\": \"administrador deve ser 'true' ou 'false'\"\n}"
 						},
 						{
-							"name": "Editar usuário - Number em todos os campos",
+							"name": "Number em todos os campos",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [],
@@ -3102,7 +3021,7 @@
 							"body": "{\n    \"nome\": \"nome deve ser uma string\",\n    \"email\": \"email deve ser uma string\",\n    \"password\": \"password deve ser uma string\",\n    \"administrador\": \"administrador deve ser 'true' ou 'false'\"\n}"
 						},
 						{
-							"name": "Editar usuário - Boolean em todos os campos",
+							"name": "Boolean em todos os campos",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [],
@@ -3181,6 +3100,87 @@
 							],
 							"cookie": [],
 							"body": "{\n    \"nome\": \"nome deve ser uma string\",\n    \"email\": \"email deve ser uma string\",\n    \"password\": \"password deve ser uma string\",\n    \"administrador\": \"administrador deve ser 'true' ou 'false'\"\n}"
+						},
+						{
+							"name": "Campo extra",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"nome\": \"Fulano da Silva\",\r\n    \"email\": \"tests@qa.com.br\",\r\n    \"password\": \"teste\",\r\n    \"administrador\": \"true\",\r\n    \"campoExtra\": \"teste\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/usuarios/4NaszuF4cn1gS7l8",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"usuarios",
+										"4NaszuF4cn1gS7l8"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 21 May 2021 17:13:56 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "52"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "x-dns-prefetch-control",
+									"value": "off"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "strict-transport-security",
+									"value": "max-age=15552000; includeSubDomains"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "x-moesif-transaction-id",
+									"value": "7810ff5c-a93f-4a4d-b33b-cc9cc4a61999"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"campoExtra\": \"campoExtra não é permitido\"\n}"
 						}
 					]
 				}
@@ -3190,7 +3190,7 @@
 			"name": "Produtos",
 			"item": [
 				{
-					"name": "Listar produtos cadastrados",
+					"name": "Listar produtos",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -3233,7 +3233,7 @@
 					},
 					"response": [
 						{
-							"name": "Listar produtos cadastrados - Todos",
+							"name": "Todos",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -3304,7 +3304,7 @@
 							"body": "{\n    \"quantidade\": 2,\n    \"produtos\": [\n        {\n            \"nome\": \"Logitech MX Vertical\",\n            \"preco\": 470,\n            \"descricao\": \"Mouse\",\n            \"quantidade\": 381,\n            \"_id\": \"BeeJh5lz3k6kSIzA\"\n        },\n        {\n            \"nome\": \"Samsung 60 polegadas\",\n            \"preco\": 5240,\n            \"descricao\": \"TV\",\n            \"quantidade\": 49977,\n            \"_id\": \"K6leHdftCeOJj8BJ\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Listar produtos cadastrados - Filtro por id",
+							"name": "Filtro por id",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -3401,7 +3401,7 @@
 							"body": "{\n    \"quantidade\": 1,\n    \"produtos\": [\n        {\n            \"nome\": \"Logitech MX Vertical\",\n            \"preco\": 470,\n            \"descricao\": \"Mouse\",\n            \"quantidade\": 381,\n            \"_id\": \"BeeJh5lz3k6kSIzA\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Listar produtos cadastrados - Filtro por nome",
+							"name": "Filtro por nome",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -3498,7 +3498,7 @@
 							"body": "{\n    \"quantidade\": 1,\n    \"produtos\": [\n        {\n            \"nome\": \"Samsung 60 polegadas\",\n            \"preco\": 5240,\n            \"descricao\": \"TV\",\n            \"quantidade\": 49977,\n            \"_id\": \"K6leHdftCeOJj8BJ\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Listar produtos cadastrados - Filtro por preço",
+							"name": "Filtro por preço",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -3595,7 +3595,7 @@
 							"body": "{\n    \"quantidade\": 1,\n    \"produtos\": [\n        {\n            \"nome\": \"Logitech MX Vertical\",\n            \"preco\": 470,\n            \"descricao\": \"Mouse\",\n            \"quantidade\": 381,\n            \"_id\": \"BeeJh5lz3k6kSIzA\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Listar produtos cadastrados - Filtro por descrição",
+							"name": "Filtro por descrição",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -3692,7 +3692,7 @@
 							"body": "{\n    \"quantidade\": 1,\n    \"produtos\": [\n        {\n            \"nome\": \"Samsung 60 polegadas\",\n            \"preco\": 5240,\n            \"descricao\": \"TV\",\n            \"quantidade\": 49977,\n            \"_id\": \"K6leHdftCeOJj8BJ\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Listar produtos cadastrados - Filtro por quantidade",
+							"name": "Filtro por quantidade",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -3789,7 +3789,7 @@
 							"body": "{\n    \"quantidade\": 1,\n    \"produtos\": [\n        {\n            \"nome\": \"Logitech MX Vertical\",\n            \"preco\": 470,\n            \"descricao\": \"Mouse\",\n            \"quantidade\": 381,\n            \"_id\": \"BeeJh5lz3k6kSIzA\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Listar produtos cadastrados - Chave extra",
+							"name": "Chave extra",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -3924,7 +3924,7 @@
 					},
 					"response": [
 						{
-							"name": "Cadastrar produto - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -4010,7 +4010,7 @@
 							"body": "{\n    \"message\": \"Cadastro realizado com sucesso\",\n    \"_id\": \"TwBUly64djCFi70o\"\n}"
 						},
 						{
-							"name": "Cadastrar produto - Campos obrigatórios",
+							"name": "Campos obrigatórios",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -4087,7 +4087,7 @@
 							"body": "{\n    \"nome\": \"nome é obrigatório\",\n    \"preco\": \"preco é obrigatório\",\n    \"descricao\": \"descricao é obrigatório\",\n    \"quantidade\": \"quantidade é obrigatório\"\n}"
 						},
 						{
-							"name": "Cadastrar produto - Produto já cadastrado",
+							"name": "Produto já cadastrado",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -4173,7 +4173,7 @@
 							"body": "{\n    \"message\": \"Já existe produto com esse nome\"\n}"
 						},
 						{
-							"name": "Cadastrar produto - String vazia em todos os campos",
+							"name": "String vazia em todos os campos",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -4259,7 +4259,7 @@
 							"body": "{\n    \"nome\": \"nome não pode ficar em branco\",\n    \"preco\": \"preco deve ser um número\",\n    \"descricao\": \"descricao não pode ficar em branco\",\n    \"quantidade\": \"quantidade deve ser um número\"\n}"
 						},
 						{
-							"name": "Cadastrar produto - Number em todos os campos",
+							"name": "Number em todos os campos",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -4345,7 +4345,7 @@
 							"body": "{\n    \"nome\": \"nome deve ser uma string\",\n    \"descricao\": \"descricao deve ser uma string\"\n}"
 						},
 						{
-							"name": "Cadastrar produto - Boolean em todos os campos",
+							"name": "Boolean em todos os campos",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -4431,7 +4431,7 @@
 							"body": "{\n    \"nome\": \"nome deve ser uma string\",\n    \"preco\": \"preco deve ser um número\",\n    \"descricao\": \"descricao deve ser uma string\",\n    \"quantidade\": \"quantidade deve ser um número\"\n}"
 						},
 						{
-							"name": "Cadastrar produto - Campo extra",
+							"name": "Campo extra",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -4517,7 +4517,7 @@
 							"body": "{\n    \"campoExtra\": \"campoExtra não é permitido\"\n}"
 						},
 						{
-							"name": "Cadastrar produto - Token ausente",
+							"name": "Token ausente",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -4604,7 +4604,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Cadastrar produto - Token inválido",
+							"name": "Token inválido",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -4690,7 +4690,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Cadastrar produto - Token expirado",
+							"name": "Token expirado",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -4776,7 +4776,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Cadastrar produto - Usuário não-admin",
+							"name": "Usuário não-admin",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -4881,7 +4881,7 @@
 					},
 					"response": [
 						{
-							"name": "Buscar produto por ID - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -4953,7 +4953,7 @@
 							"body": "{\n    \"nome\": \"Logitech MX Vertical\",\n    \"preco\": 470,\n    \"descricao\": \"Mouse\",\n    \"quantidade\": 381,\n    \"_id\": \"BeeJh5lz3k6kSIzA\"\n}"
 						},
 						{
-							"name": "Buscar produto por ID - Produto não encontrado",
+							"name": "Produto não encontrado",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -5050,7 +5050,7 @@
 					},
 					"response": [
 						{
-							"name": "Excluir produto - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -5128,85 +5128,7 @@
 							"body": "{\n    \"message\": \"Registro excluído com sucesso\"\n}"
 						},
 						{
-							"name": "Excluir produto - Produto faz parte de carrinho",
-							"originalRequest": {
-								"method": "DELETE",
-								"header": [
-									{
-										"key": "Authorization",
-										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJlbHRyYW5vQHFhLmNvbS5iciIsInBhc3N3b3JkIjoidGVzdGUiLCJpYXQiOjE2MjE2MjUyNzgsImV4cCI6MTYyMTYyNTg3OH0.A7QK9TugPCOL7GlCfjz4ULXepyeMKr7R3gl2yRUN1QQ",
-										"type": "text"
-									}
-								],
-								"url": {
-									"raw": "{{url}}/produtos/BeeJh5lz3k6kSIzA",
-									"host": [
-										"{{url}}"
-									],
-									"path": [
-										"produtos",
-										"BeeJh5lz3k6kSIzA"
-									]
-								}
-							},
-							"status": "Bad Request",
-							"code": 400,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Date",
-									"value": "Fri, 21 May 2021 19:25:31 GMT"
-								},
-								{
-									"key": "Content-Type",
-									"value": "application/json; charset=utf-8"
-								},
-								{
-									"key": "Content-Length",
-									"value": "163"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
-								},
-								{
-									"key": "Access-Control-Allow-Origin",
-									"value": "*"
-								},
-								{
-									"key": "x-dns-prefetch-control",
-									"value": "off"
-								},
-								{
-									"key": "x-frame-options",
-									"value": "SAMEORIGIN"
-								},
-								{
-									"key": "strict-transport-security",
-									"value": "max-age=15552000; includeSubDomains"
-								},
-								{
-									"key": "x-download-options",
-									"value": "noopen"
-								},
-								{
-									"key": "x-content-type-options",
-									"value": "nosniff"
-								},
-								{
-									"key": "x-xss-protection",
-									"value": "1; mode=block"
-								},
-								{
-									"key": "x-moesif-transaction-id",
-									"value": "023a61e6-5627-4d0e-b275-f9e4b1556ddd"
-								}
-							],
-							"cookie": [],
-							"body": "{\n    \"message\": \"Não é permitido excluir produto que faz parte de carrinho\",\n    \"idCarrinhos\": [\n        \"7rkD8B6bAFRWQy5o\",\n        \"qbMqntef4iTOwWfg\"\n    ]\n}"
-						},
-						{
-							"name": "Excluir produto - Id não existente",
+							"name": "Id não existente",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -5284,7 +5206,85 @@
 							"body": "{\n    \"message\": \"Nenhum registro excluído\"\n}"
 						},
 						{
-							"name": "Excluir produto - Token ausente",
+							"name": "Produto faz parte de carrinho",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJlbHRyYW5vQHFhLmNvbS5iciIsInBhc3N3b3JkIjoidGVzdGUiLCJpYXQiOjE2MjE2MjUyNzgsImV4cCI6MTYyMTYyNTg3OH0.A7QK9TugPCOL7GlCfjz4ULXepyeMKr7R3gl2yRUN1QQ",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/produtos/BeeJh5lz3k6kSIzA",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"produtos",
+										"BeeJh5lz3k6kSIzA"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 21 May 2021 19:25:31 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "163"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								},
+								{
+									"key": "x-dns-prefetch-control",
+									"value": "off"
+								},
+								{
+									"key": "x-frame-options",
+									"value": "SAMEORIGIN"
+								},
+								{
+									"key": "strict-transport-security",
+									"value": "max-age=15552000; includeSubDomains"
+								},
+								{
+									"key": "x-download-options",
+									"value": "noopen"
+								},
+								{
+									"key": "x-content-type-options",
+									"value": "nosniff"
+								},
+								{
+									"key": "x-xss-protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "x-moesif-transaction-id",
+									"value": "023a61e6-5627-4d0e-b275-f9e4b1556ddd"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Não é permitido excluir produto que faz parte de carrinho\",\n    \"idCarrinhos\": [\n        \"7rkD8B6bAFRWQy5o\",\n        \"qbMqntef4iTOwWfg\"\n    ]\n}"
+						},
+						{
+							"name": "Token ausente",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -5363,7 +5363,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Excluir produto - Token inválido",
+							"name": "Token inválido",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -5441,7 +5441,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Excluir produto - Token expirado",
+							"name": "Token expirado",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -5519,7 +5519,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Excluir produto - Usuário não-admin",
+							"name": "Usuário não-admin",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -5631,7 +5631,7 @@
 					},
 					"response": [
 						{
-							"name": "Editar produto - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
@@ -5718,7 +5718,7 @@
 							"body": "{\n    \"message\": \"Registro alterado com sucesso\"\n}"
 						},
 						{
-							"name": "Editar produto - Id inexistente",
+							"name": "Id inexistente",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
@@ -5805,7 +5805,7 @@
 							"body": "{\n    \"message\": \"Cadastro realizado com sucesso\",\n    \"_id\": \"bfax89rJavxvhpZU\"\n}"
 						},
 						{
-							"name": "Editar produto - Campos obrigatórios",
+							"name": "Campos obrigatórios",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
@@ -5883,7 +5883,7 @@
 							"body": "{\n    \"nome\": \"nome é obrigatório\",\n    \"preco\": \"preco é obrigatório\",\n    \"descricao\": \"descricao é obrigatório\",\n    \"quantidade\": \"quantidade é obrigatório\"\n}"
 						},
 						{
-							"name": "Editar produto - Nome já cadastrado",
+							"name": "Nome já cadastrado",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
@@ -5970,7 +5970,7 @@
 							"body": "{\n    \"message\": \"Já existe produto com esse nome\"\n}"
 						},
 						{
-							"name": "Editar produto - String vazia em todos os campos",
+							"name": "String vazia em todos os campos",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
@@ -6057,7 +6057,7 @@
 							"body": "{\n    \"nome\": \"nome não pode ficar em branco\",\n    \"preco\": \"preco deve ser um número\",\n    \"descricao\": \"descricao não pode ficar em branco\",\n    \"quantidade\": \"quantidade deve ser um número\"\n}"
 						},
 						{
-							"name": "Editar produto - Number em todos os campos",
+							"name": "Number em todos os campos",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
@@ -6144,7 +6144,7 @@
 							"body": "{\n    \"nome\": \"nome deve ser uma string\",\n    \"descricao\": \"descricao deve ser uma string\"\n}"
 						},
 						{
-							"name": "Editar produto - Boolean em todos os campos",
+							"name": "Boolean em todos os campos",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
@@ -6231,7 +6231,7 @@
 							"body": "{\n    \"nome\": \"nome deve ser uma string\",\n    \"preco\": \"preco deve ser um número\",\n    \"descricao\": \"descricao deve ser uma string\",\n    \"quantidade\": \"quantidade deve ser um número\"\n}"
 						},
 						{
-							"name": "Editar produto - Campo extra",
+							"name": "Campo extra",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
@@ -6318,7 +6318,7 @@
 							"body": "{\n    \"campoExtra\": \"campoExtra não é permitido\"\n}"
 						},
 						{
-							"name": "Editar produto - Token ausente",
+							"name": "Token ausente",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
@@ -6406,7 +6406,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Editar produto - Token inválido",
+							"name": "Token inválido",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
@@ -6493,7 +6493,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Editar produto - Token expirado",
+							"name": "Token expirado",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
@@ -6580,7 +6580,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Editar produto - Usuário não-admin",
+							"name": "Usuário não-admin",
 							"originalRequest": {
 								"method": "PUT",
 								"header": [
@@ -6674,7 +6674,7 @@
 			"name": "Carrinhos",
 			"item": [
 				{
-					"name": "Listar carrinhos cadastrados",
+					"name": "Listar carrinhos",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -6712,7 +6712,7 @@
 					},
 					"response": [
 						{
-							"name": "Listar carrinhos cadastrados - Todos",
+							"name": "Todos",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -6783,7 +6783,7 @@
 							"body": "{\n    \"quantidade\": 2,\n    \"carrinhos\": [\n        {\n            \"produtos\": [\n                {\n                    \"idProduto\": \"BeeJh5lz3k6kSIzA\",\n                    \"quantidade\": 1,\n                    \"precoUnitario\": 470\n                }\n            ],\n            \"precoTotal\": 470,\n            \"quantidadeTotal\": 1,\n            \"idUsuario\": \"4NaszuF4cn1gS7l8\",\n            \"_id\": \"7rkD8B6bAFRWQy5o\"\n        },\n        {\n            \"produtos\": [\n                {\n                    \"idProduto\": \"BeeJh5lz3k6kSIzA\",\n                    \"quantidade\": 2,\n                    \"precoUnitario\": 470\n                },\n                {\n                    \"idProduto\": \"K6leHdftCeOJj8BJ\",\n                    \"quantidade\": 1,\n                    \"precoUnitario\": 5240\n                }\n            ],\n            \"precoTotal\": 6180,\n            \"quantidadeTotal\": 3,\n            \"idUsuario\": \"oUb7aGkMtSEPf6BZ\",\n            \"_id\": \"qbMqntef4iTOwWfg\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Listar carrinhos cadastrados - Filtro por id",
+							"name": "Filtro por id",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -6875,7 +6875,7 @@
 							"body": "{\n    \"quantidade\": 1,\n    \"carrinhos\": [\n        {\n            \"produtos\": [\n                {\n                    \"idProduto\": \"BeeJh5lz3k6kSIzA\",\n                    \"quantidade\": 1,\n                    \"precoUnitario\": 470\n                }\n            ],\n            \"precoTotal\": 470,\n            \"quantidadeTotal\": 1,\n            \"idUsuario\": \"4NaszuF4cn1gS7l8\",\n            \"_id\": \"7rkD8B6bAFRWQy5o\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Listar carrinhos cadastrados - Filtro por preço total",
+							"name": "Filtro por preço total",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -6967,7 +6967,7 @@
 							"body": "{\n    \"quantidade\": 1,\n    \"carrinhos\": [\n        {\n            \"produtos\": [\n                {\n                    \"idProduto\": \"BeeJh5lz3k6kSIzA\",\n                    \"quantidade\": 2,\n                    \"precoUnitario\": 470\n                },\n                {\n                    \"idProduto\": \"K6leHdftCeOJj8BJ\",\n                    \"quantidade\": 1,\n                    \"precoUnitario\": 5240\n                }\n            ],\n            \"precoTotal\": 6180,\n            \"quantidadeTotal\": 3,\n            \"idUsuario\": \"oUb7aGkMtSEPf6BZ\",\n            \"_id\": \"qbMqntef4iTOwWfg\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Listar carrinhos cadastrados - Filtro por quantidade total",
+							"name": "Filtro por quantidade total",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -7059,7 +7059,7 @@
 							"body": "{\n    \"quantidade\": 1,\n    \"carrinhos\": [\n        {\n            \"produtos\": [\n                {\n                    \"idProduto\": \"BeeJh5lz3k6kSIzA\",\n                    \"quantidade\": 1,\n                    \"precoUnitario\": 470\n                }\n            ],\n            \"precoTotal\": 470,\n            \"quantidadeTotal\": 1,\n            \"idUsuario\": \"4NaszuF4cn1gS7l8\",\n            \"_id\": \"7rkD8B6bAFRWQy5o\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Listar carrinhos cadastrados - Filtro por id de usuário",
+							"name": "Filtro por id de usuário",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -7151,7 +7151,7 @@
 							"body": "{\n    \"quantidade\": 1,\n    \"carrinhos\": [\n        {\n            \"produtos\": [\n                {\n                    \"idProduto\": \"BeeJh5lz3k6kSIzA\",\n                    \"quantidade\": 2,\n                    \"precoUnitario\": 470\n                },\n                {\n                    \"idProduto\": \"K6leHdftCeOJj8BJ\",\n                    \"quantidade\": 1,\n                    \"precoUnitario\": 5240\n                }\n            ],\n            \"precoTotal\": 6180,\n            \"quantidadeTotal\": 3,\n            \"idUsuario\": \"oUb7aGkMtSEPf6BZ\",\n            \"_id\": \"qbMqntef4iTOwWfg\"\n        }\n    ]\n}"
 						},
 						{
-							"name": "Listar carrinhos cadastrados - Campo extra",
+							"name": "Campo extra",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -7281,7 +7281,7 @@
 					},
 					"response": [
 						{
-							"name": "Cadastrar carrinho - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -7367,7 +7367,7 @@
 							"body": "{\n    \"message\": \"Cadastro realizado com sucesso\",\n    \"_id\": \"9Ul7e9K2NhTcos4T\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - Campos obrigatórios",
+							"name": "Campos obrigatórios",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -7444,7 +7444,7 @@
 							"body": "{\n    \"produtos\": \"produtos é obrigatório\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - Carrinho já cadastrado",
+							"name": "Carrinho já cadastrado",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -7530,7 +7530,7 @@
 							"body": "{\n    \"message\": \"Não é permitido ter mais de 1 carrinho\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - String vazia em produto",
+							"name": "String vazia em produto",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -7616,7 +7616,7 @@
 							"body": "{\n    \"produtos\": \"produtos deve ser um array\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - Number em produto",
+							"name": "Number em produto",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -7702,7 +7702,7 @@
 							"body": "{\n    \"produtos\": \"produtos deve ser um array\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - Boolean em produto",
+							"name": "Boolean em produto",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -7788,7 +7788,7 @@
 							"body": "{\n    \"produtos\": \"produtos deve ser um array\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - String vazia em produto[0]",
+							"name": "String vazia em produto[0]",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -7874,7 +7874,7 @@
 							"body": "{\n    \"produtos[0]\": \"produtos[0] deve ser um objeto\",\n    \"produtos\": \"produtos não contém 1 valor obrigatório\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - Number em produto[0]",
+							"name": "Number em produto[0]",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -7960,7 +7960,7 @@
 							"body": "{\n    \"produtos[0]\": \"produtos[0] deve ser um objeto\",\n    \"produtos\": \"produtos não contém 1 valor obrigatório\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - Boolean em produto[0]",
+							"name": "Boolean em produto[0]",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -8046,7 +8046,7 @@
 							"body": "{\n    \"produtos[0]\": \"produtos[0] deve ser um objeto\",\n    \"produtos\": \"produtos não contém 1 valor obrigatório\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - Campo extra em produto",
+							"name": "Campo extra em produto",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -8132,7 +8132,7 @@
 							"body": "{\n    \"produtos[0].campoExtra\": \"produtos[0].campoExtra não é permitido\",\n    \"produtos\": \"produtos não contém 1 valor obrigatório\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - Campo extra",
+							"name": "Campo extra",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -8218,7 +8218,7 @@
 							"body": "{\n    \"campoExtra\": \"campoExtra não é permitido\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - Token ausente",
+							"name": "Token ausente",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -8305,7 +8305,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - Token inválido",
+							"name": "Token inválido",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -8391,7 +8391,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Cadastrar carrinho - Token expirado",
+							"name": "Token expirado",
 							"originalRequest": {
 								"method": "POST",
 								"header": [
@@ -8665,7 +8665,7 @@
 					},
 					"response": [
 						{
-							"name": "Excluir carrinho - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -8743,7 +8743,7 @@
 							"body": "{\n    \"message\": \"Registro excluído com sucesso\"\n}"
 						},
 						{
-							"name": "Excluir carrinho - Usuário sem carrinho",
+							"name": "Usuário sem carrinho",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -8821,7 +8821,7 @@
 							"body": "{\n    \"message\": \"Não foi encontrado carrinho para esse usuário\"\n}"
 						},
 						{
-							"name": "Excluir carrinho - Token ausente",
+							"name": "Token ausente",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -8900,7 +8900,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Excluir carrinho - Token inválido",
+							"name": "Token inválido",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -8978,7 +8978,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Excluir carrinho - Token expirado",
+							"name": "Token expirado",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -9081,7 +9081,7 @@
 					},
 					"response": [
 						{
-							"name": "Excluir carrinho e retornar produtos para estoque - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -9159,7 +9159,7 @@
 							"body": "{\n    \"message\": \"Registro excluído com sucesso. Estoque dos produtos reabastecido\"\n}"
 						},
 						{
-							"name": "Excluir carrinho  e retornar produtos para estoque - Usuário sem carrinho",
+							"name": "Usuário sem carrinho",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -9237,7 +9237,7 @@
 							"body": "{\n    \"message\": \"Não foi encontrado carrinho para esse usuário\"\n}"
 						},
 						{
-							"name": "Excluir carrinho e retornar produtos para estoque - Token ausente",
+							"name": "Token ausente",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -9316,7 +9316,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Excluir carrinho e retornar produtos para estoque - Token inválido",
+							"name": "Token inválido",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
@@ -9394,7 +9394,7 @@
 							"body": "{\n    \"message\": \"Token de acesso ausente, inválido, expirado ou usuário do token não existe mais\"\n}"
 						},
 						{
-							"name": "Excluir carrinho e retornar produtos para estoque - Token expirado",
+							"name": "Token expirado",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [
