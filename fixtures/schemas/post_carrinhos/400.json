@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "produtos": "produtos é obrigatório"
+    }
+  ],
+  "required": [
+    "produtos"
+  ],
+  "properties": {
+    "produtos[0]": {
+      "$id": "#/properties/produtos%5B0%5D",
+      "type": "string",
+      "title": "The produtos[0] schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "produtos[0] deve ser um objeto"
+      ]
+    },
+    "produtos": {
+      "$id": "#/properties/produtos",
+      "type": "string",
+      "title": "The produtos schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "produtos é obrigatório",
+        "produtos deve ser um array",
+        "produtos não contém 1 valor obrigatório"
+      ]
+    },
+    "message": {
+      "$id": "#/properties/message",
+      "type": "string",
+      "title": "The message schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Não é permitido ter mais de 1 carrinho"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

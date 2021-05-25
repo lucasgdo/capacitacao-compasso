@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "nome": "nome é obrigatório",
+      "preco": "preco é obrigatório",
+      "descricao": "descricao é obrigatório",
+      "quantidade": "quantidade é obrigatório"
+    }
+  ],
+  "required": [],
+  "properties": {
+    "nome": {
+      "$id": "#/properties/nome",
+      "type": "string",
+      "title": "The nome schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "nome é obrigatório",
+        "nome não pode ficar em branco",
+        "nome deve ser uma string"
+      ]
+    },
+    "preco": {
+      "$id": "#/properties/preco",
+      "type": "string",
+      "title": "The preco schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "preco é obrigatório",
+        "preco deve ser um número"
+      ]
+    },
+    "descricao": {
+      "$id": "#/properties/descricao",
+      "type": "string",
+      "title": "The descricao schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "descricao é obrigatório",
+        "descricao não pode ficar em branco",
+        "descricao deve ser uma string"
+      ]
+    },
+    "quantidade": {
+      "$id": "#/properties/quantidade",
+      "type": "string",
+      "title": "The quantidade schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "quantidade é obrigatório",
+        "quantidade deve ser um número"
+      ]
+    },
+    "message": {
+      "$id": "#/properties/message",
+      "type": "string",
+      "title": "The message schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Já existe produto com esse nome"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

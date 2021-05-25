@@ -8496,7 +8496,7 @@
 					},
 					"response": [
 						{
-							"name": "Buscar carrinho por ID - Sucesso",
+							"name": "Sucesso",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
@@ -8568,7 +8568,7 @@
 							"body": "{\n    \"produtos\": [\n        {\n            \"idProduto\": \"BeeJh5lz3k6kSIzA\",\n            \"quantidade\": 1,\n            \"precoUnitario\": 470\n        }\n    ],\n    \"precoTotal\": 470,\n    \"quantidadeTotal\": 1,\n    \"idUsuario\": \"4NaszuF4cn1gS7l8\",\n    \"_id\": \"7rkD8B6bAFRWQy5o\"\n}"
 						},
 						{
-							"name": "Buscar carrinho por ID - Carrinho não encontrado",
+							"name": "Carrinho não encontrado",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],

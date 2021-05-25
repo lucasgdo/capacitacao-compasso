@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "produtos": [
+        {
+          "idProduto": "BeeJh5lz3k6kSIzA",
+          "quantidade": 1,
+          "precoUnitario": 470
+        }
+      ],
+      "precoTotal": 470,
+      "quantidadeTotal": 1,
+      "idUsuario": "4NaszuF4cn1gS7l8",
+      "_id": "7rkD8B6bAFRWQy5o"
+    }
+  ],
+  "required": [
+    "produtos",
+    "precoTotal",
+    "quantidadeTotal",
+    "idUsuario",
+    "_id"
+  ],
+  "properties": {
+    "produtos": {
+      "$id": "#/properties/produtos",
+      "type": "array",
+      "title": "The produtos schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "idProduto": "BeeJh5lz3k6kSIzA",
+            "quantidade": 1,
+            "precoUnitario": 470
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/produtos/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/produtos/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "idProduto": "BeeJh5lz3k6kSIzA",
+                "quantidade": 1,
+                "precoUnitario": 470
+              }
+            ],
+            "required": [
+              "idProduto",
+              "quantidade",
+              "precoUnitario"
+            ],
+            "properties": {
+              "idProduto": {
+                "$id": "#/properties/produtos/items/anyOf/0/properties/idProduto",
+                "type": "string",
+                "title": "The idProduto schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "BeeJh5lz3k6kSIzA"
+                ]
+              },
+              "quantidade": {
+                "$id": "#/properties/produtos/items/anyOf/0/properties/quantidade",
+                "type": "integer",
+                "title": "The quantidade schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  1
+                ]
+              },
+              "precoUnitario": {
+                "$id": "#/properties/produtos/items/anyOf/0/properties/precoUnitario",
+                "type": "integer",
+                "title": "The precoUnitario schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": 0,
+                "examples": [
+                  470
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    },
+    "precoTotal": {
+      "$id": "#/properties/precoTotal",
+      "type": "integer",
+      "title": "The precoTotal schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        470
+      ]
+    },
+    "quantidadeTotal": {
+      "$id": "#/properties/quantidadeTotal",
+      "type": "integer",
+      "title": "The quantidadeTotal schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "idUsuario": {
+      "$id": "#/properties/idUsuario",
+      "type": "string",
+      "title": "The idUsuario schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "4NaszuF4cn1gS7l8"
+      ]
+    },
+    "_id": {
+      "$id": "#/properties/_id",
+      "type": "string",
+      "title": "The _id schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "7rkD8B6bAFRWQy5o"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

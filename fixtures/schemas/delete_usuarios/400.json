@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "message": "Não é permitido excluir usuário com carrinho cadastrado",
+      "idCarrinho": "7rkD8B6bAFRWQy5o"
+    }
+  ],
+  "required": [
+    "message",
+    "idCarrinho"
+  ],
+  "properties": {
+    "message": {
+      "$id": "#/properties/message",
+      "type": "string",
+      "title": "The message schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Não é permitido excluir usuário com carrinho cadastrado"
+      ]
+    },
+    "idCarrinho": {
+      "$id": "#/properties/idCarrinho",
+      "type": "string",
+      "title": "The idCarrinho schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "7rkD8B6bAFRWQy5o"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

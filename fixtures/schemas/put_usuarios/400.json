@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "nome": "nome é obrigatório",
+      "email": "email é obrigatório",
+      "password": "password é obrigatório",
+      "administrador": "administrador é obrigatório"
+    }
+  ],
+  "required": [
+    "nome",
+    "email",
+    "password",
+    "administrador"
+  ],
+  "properties": {
+    "nome": {
+      "$id": "#/properties/nome",
+      "type": "string",
+      "title": "The nome schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "nome é obrigatório",
+        "nome não pode ficar em branco",
+        "nome deve ser uma string"
+      ]
+    },
+    "email": {
+      "$id": "#/properties/email",
+      "type": "string",
+      "title": "The email schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "email é obrigatório",
+        "email deve ser um email válido",
+        "email não pode ficar em branco",
+        "email deve ser uma string"
+      ]
+    },
+    "password": {
+      "$id": "#/properties/password",
+      "type": "string",
+      "title": "The password schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "password é obrigatório",
+        "password não pode ficar em branco",
+        "password deve ser uma string"
+      ]
+    },
+    "administrador": {
+      "$id": "#/properties/administrador",
+      "type": "string",
+      "title": "The administrador schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "administrador é obrigatório",
+        "administrador deve ser 'true' ou 'false'"
+      ]
+    },
+    "message": {
+      "$id": "#/properties/message",
+      "type": "string",
+      "title": "The message schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Este email já está sendo usado"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

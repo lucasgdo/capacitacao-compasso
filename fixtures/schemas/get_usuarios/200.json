@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "quantidade": 16,
+      "usuarios": [
+        {
+          "nome": "Fulano da Silva",
+          "email": "fulano@qa.com",
+          "password": "teste",
+          "administrador": "true",
+          "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+          "nome": "Celestino",
+          "email": "Horace39@yahoo.com",
+          "password": "cGJSfigOeM7c3rb",
+          "administrador": "true",
+          "_id": "2sAiZCf2bihxM7ha"
+        },
+        {
+          "nome": "Werner",
+          "email": "Myrna_Johnson@hotmail.com",
+          "password": "d5AYKDKmMnmP5Hc",
+          "administrador": "true",
+          "_id": "4NaszuF4cn1gS7l8"
+        },
+        {
+          "nome": "Fulano da Silva",
+          "email": "beltran@qa.com.br",
+          "password": "teste",
+          "administrador": "true",
+          "_id": "CE4qCxVxJP2vN36f"
+        },
+        {
+          "nome": "Jevon",
+          "email": "Adrienne.Wisoky91@yahoo.com",
+          "password": "M1wLM4WS5a7XH4T",
+          "administrador": "true",
+          "_id": "E06TwXoAmLvSI7Mc"
+        },
+        {
+          "nome": "Paige",
+          "email": "Kameron.OConner29@yahoo.com",
+          "password": "bzTW4hPC3Tf4rUC",
+          "administrador": "true",
+          "_id": "JxnGVmINKWCgZDmQ"
+        },
+        {
+          "nome": "Francisca",
+          "email": "Conor_Larkin41@yahoo.com",
+          "password": "YeAvkROMfNokr6G",
+          "administrador": "true",
+          "_id": "P6dd0IxEBEgVy104"
+        },
+        {
+          "nome": "Adriana",
+          "email": "Nadia.Homenick@hotmail.com",
+          "password": "RUKBd8Acz2_rKJO",
+          "administrador": "true",
+          "_id": "Ts23WHOx8QBSsZGv"
+        },
+        {
+          "nome": "Fulano da Silva",
+          "email": "beltrano@qa.com.br",
+          "password": "teste",
+          "administrador": "true",
+          "_id": "VRzLoPzWZ8Jf2ouY"
+        },
+        {
+          "nome": "Jeanie",
+          "email": "Rollin33@gmail.com",
+          "password": "G2IpPBCpoRwdZJo",
+          "administrador": "true",
+          "_id": "Z7vLw6IJuxXysHbW"
+        },
+        {
+          "nome": "Antonio",
+          "email": "Emmet_Hills95@hotmail.com",
+          "password": "kAfu0rwckba8Dax",
+          "administrador": "true",
+          "_id": "ZjdpbAlNJPwzOq6i"
+        },
+        {
+          "nome": "Dortha",
+          "email": "Violet12@gmail.com",
+          "password": "SkL5jJ1IdlQqXEA",
+          "administrador": "true",
+          "_id": "a1s8un5FwsJH1IUw"
+        },
+        {
+          "nome": "Burley",
+          "email": "Dario_Armstrong@hotmail.com",
+          "password": "e4pMob26ZkoZtnv",
+          "administrador": "true",
+          "_id": "bEhCIo5G40QC5tjz"
+        },
+        {
+          "nome": "Fulano e Silva",
+          "email": "beltranoa@qa.com.br",
+          "password": "teste",
+          "administrador": "true",
+          "_id": "gMktT5i3cqKR6zS6"
+        },
+        {
+          "nome": "Geovanny",
+          "email": "Shayna.Padberg80@yahoo.com",
+          "password": "6B5afYwnvD_sJbk",
+          "administrador": "true",
+          "_id": "kJmeVuucAwBBZdn0"
+        },
+        {
+          "nome": "Pedro",
+          "email": "emaildoPedro@correio.pt",
+          "password": "PWdoPedro",
+          "administrador": "true",
+          "_id": "xnesuoXPYgbY9q3A"
+        }
+      ]
+    }
+  ],
+  "required": [
+    "quantidade",
+    "usuarios"
+  ],
+  "properties": {
+    "quantidade": {
+      "$id": "#/properties/quantidade",
+      "type": "integer",
+      "title": "The quantidade schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        16
+      ]
+    },
+    "usuarios": {
+      "$id": "#/properties/usuarios",
+      "type": "array",
+      "title": "The usuarios schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "examples": [
+        [
+          {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+          },
+          {
+            "nome": "Celestino",
+            "email": "Horace39@yahoo.com",
+            "password": "cGJSfigOeM7c3rb",
+            "administrador": "true",
+            "_id": "2sAiZCf2bihxM7ha"
+          }
+        ]
+      ],
+      "additionalItems": true,
+      "items": {
+        "$id": "#/properties/usuarios/items",
+        "anyOf": [
+          {
+            "$id": "#/properties/usuarios/items/anyOf/0",
+            "type": "object",
+            "title": "The first anyOf schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+              {
+                "nome": "Fulano da Silva",
+                "email": "fulano@qa.com",
+                "password": "teste",
+                "administrador": "true",
+                "_id": "0uxuPY0cbmQhpEz1"
+              }
+            ],
+            "required": [
+              "nome",
+              "email",
+              "password",
+              "administrador",
+              "_id"
+            ],
+            "properties": {
+              "nome": {
+                "$id": "#/properties/usuarios/items/anyOf/0/properties/nome",
+                "type": "string",
+                "title": "The nome schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "Fulano da Silva"
+                ]
+              },
+              "email": {
+                "$id": "#/properties/usuarios/items/anyOf/0/properties/email",
+                "type": "string",
+                "title": "The email schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "fulano@qa.com"
+                ]
+              },
+              "password": {
+                "$id": "#/properties/usuarios/items/anyOf/0/properties/password",
+                "type": "string",
+                "title": "The password schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "teste"
+                ]
+              },
+              "administrador": {
+                "$id": "#/properties/usuarios/items/anyOf/0/properties/administrador",
+                "type": "string",
+                "title": "The administrador schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "true"
+                ]
+              },
+              "_id": {
+                "$id": "#/properties/usuarios/items/anyOf/0/properties/_id",
+                "type": "string",
+                "title": "The _id schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "0uxuPY0cbmQhpEz1"
+                ]
+              }
+            },
+            "additionalProperties": true
+          }
+        ]
+      }
+    }
+  },
+  "additionalProperties": true
+}
