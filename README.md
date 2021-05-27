@@ -1,0 +1,1 @@
+Branch com specs baseados nos casos de teste do site da Panvel criados com Cypress nativo.
