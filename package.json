@@ -1,0 +1,30 @@
+{
+  "name": "capacitacao_compasso",
+  "version": "1.0.0",
+  "description": "Branch com specs baseados nos casos de teste do site da Panvel criados com Cypress + Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasgdo/capacitacao_compasso.git"
+  },
+  "keywords": [],
+  "author": "Lucas Gomes de Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasgdo/capacitacao_compasso/issues"
+  },
+  "homepage": "https://github.com/lucasgdo/capacitacao_compasso#readme",
+  "devDependencies": {
+    "cpf": "^2.0.1",
+    "cypress": "^7.4.0",
+    "cypress-cucumber-preprocessor": "^4.1.1",
+    "faker": "^5.5.3",
+    "fs-extra": "^10.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
