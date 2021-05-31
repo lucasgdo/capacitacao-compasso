@@ -25,6 +25,6 @@
     "fs-extra": "^10.0.0"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "stepDefinitions": "cypress/integration/step_definitions/"
   }
 }

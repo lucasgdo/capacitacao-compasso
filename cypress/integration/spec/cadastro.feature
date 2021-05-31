@@ -6,7 +6,7 @@ Funcionalidade: Cadastro
   Para possuir uma conta no site
 
   Contexto:
-    Dado que esteja na página de Cadastro
+    Dado que esteja na página "cadastrarCliente"
 
   Esquema do Cenário: Cadastro
     Quando realizar o cadastro com nome "<nome>", e-mail "<e-mail>" e cpf "<cpf>"

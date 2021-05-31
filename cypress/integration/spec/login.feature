@@ -6,7 +6,7 @@ Funcionalidade: Login
   Para ter acesso às funcionalidades de usuário logado
 
   Contexto:
-    Dado que esteja na página de Login
+    Dado que esteja na página "login"
 
   Esquema do Cenário: Login
     Quando logar com login "<login>" e senha "<senha>"
@@ -15,8 +15,8 @@ Funcionalidade: Login
 
     Exemplos:
       | login                 | senha           | pagina | mensagem                     |
-      | lucasgdo4@gmail.com   | senhaCorreta123 | home   | LUCAS                        |
-      | 07354503312           | senhaCorreta123 | home   | LUCAS                        |
+      | lucasgdo4@gmail.com   | senhaCorreta123 | main   | LUCAS                        |
+      | 07354503312           | senhaCorreta123 | main   | LUCAS                        |
       | teste@compasso.com.br | senhaCorreta123 | login  | Usuário ou Senha inválidos   |
       | thatisnotanemail      | senhaCorreta123 | login  | Usuário ou Senha inválidos   |
       |                       | senhaCorreta123 | login  | E-mail ou CPF é obrigatório. |

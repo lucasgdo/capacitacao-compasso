@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
-
+import { When } from 'cypress-cucumber-preprocessor/steps'
+import { PanvelCadastro } from '../../pages/cadastro.page'
 import * as faker from 'faker';
 import * as cpfGen from 'cpf';
 
@@ -12,15 +13,5 @@ When('realizar o cadastro com nome {string}, e-mail {string} e cpf {string}', (n
   cpf = cpf == 'já utilizado' ? '07354503312' : cpf
   cpf = cpf == 'inválido' ? '00000000000' : cpf
 
-  cy.get('input[name="nome"]')
-    .clear()
-    .type(`${nome}{SHIFT}`);
-
-  cy.get('#input-email')
-    .clear()
-    .type(`${email}{SHIFT}`);
-
-  cy.get('#input-cpf')
-    .clear()
-    .type(`${cpf}{ENTER}`)
+  PanvelCadastro.realizarCadastro(nome, email, cpf)
 });
