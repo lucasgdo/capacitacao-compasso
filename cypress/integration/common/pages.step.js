@@ -62,6 +62,11 @@ Then('deverá ser exibida a mensagem {string}', (mensagem) => {
         .should('contain', mensagem)
 
       break;
+    case 'AVISO':
+      cy.get('.message__box')
+        .should('contain', mensagem)
+
+      break;
     default:
       cy.get('.form-control__erro-pbm')
         .should('contain', mensagem)

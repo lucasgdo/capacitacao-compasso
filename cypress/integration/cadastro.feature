@@ -19,4 +19,6 @@ Funcionalidade: Cadastro
       | não utilizado | não utilizado | já utilizado  | Este cpf já possui cadastro, caso necessário redefina sua senha! |
       | não utilizado | inválido      | não utilizado | Email não é válido.                                              |
       | não utilizado | não utilizado | inválido      | Cpf é inválido.                                                  |
+      |               | não utilizado | não utilizado | AVISO                                                            |
       | não utilizado |               | não utilizado | Campo obrigatório.                                               |
+      | não utilizado | não utilizado |               | AVISO                                                            |
