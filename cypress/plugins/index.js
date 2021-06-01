@@ -22,6 +22,6 @@ module.exports = (on, config) => {
     return launchOptions
   })
 
-  const file = config.env.configFile || 'prod'
+  const file = config.env.configFile || 'production'
   return getConfigurationByFile(file)
 }

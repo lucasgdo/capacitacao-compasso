@@ -5,11 +5,9 @@ export class PanvelLogin {
     cy.get(log.INP_USUARIO)
       .clear()
       .type(`${login}{SHIFT}`);
-
     cy.get(log.INP_SENHA)
       .clear()
       .type(`${senha}{SHIFT}`);
-
     cy.get(log.BTN_PROX)
       .click()
   }
