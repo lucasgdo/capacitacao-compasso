@@ -1,2 +1,2 @@
 # capacitacao_compasso
-Exercícios realizados durante a capacitação em automação de testes
+Exercícios realizados durante a capacitação em automação de testes da Compass UOL
